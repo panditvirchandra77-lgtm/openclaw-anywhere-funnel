@@ -1,0 +1,9 @@
+# Secrets — never commit
+*.key
+*tailscaled.state
+*.crt
+tailscaled.log
+.env
+
+# Runtime
+*.pid
